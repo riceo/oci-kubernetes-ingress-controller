@@ -24,3 +24,4 @@ kubectl describe svc nginx-ingress
 
 You'll either see the public LB IP under "LoadBalancer Ingress", or you'll see a relevant error message from OCI in Events.
 
+[OCI LB specific configuration can be applied as annotations](https://github.com/oracle/oci-cloud-controller-manager/blob/master/docs/load-balancer-annotations.md) to the Service definition at https://github.com/riceo/oci-kubernetes-ingress-controller/blob/master/config/nginx-ingress-controller.yaml#L41. By default the configuration will spin up a 400Mbps LB in OCI. 
