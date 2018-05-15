@@ -1,6 +1,6 @@
 # Kubernetes Ingress Controller for OCI
 
-Creates an Nginx Ingress controller using Nginx on OCI. Much of this source was taken and modified from the official Kubernetes Ingress repo: https://github.com/kubernetes/ingress-nginx/.
+Creates an Nginx Ingress controller using Nginx on OCI, using the Nginx official Ingress, modified for OCI with one command installation: https://github.com/nginxinc/kubernetes-ingress 
 
 Creating an Ingress controller on OCI is as simple as checking out this repo and running:
 

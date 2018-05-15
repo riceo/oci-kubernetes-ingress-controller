@@ -31,6 +31,7 @@ spec:
           - -nginx-configmaps=$(POD_NAMESPACE)/nginx-config
           - -default-server-tls-secret=$(POD_NAMESPACE)/default-server-secret
           - -v=3 # Enables extensive logging. Useful for trooublshooting.
+          - -health-status
 ---
 apiVersion: v1
 kind: Service
