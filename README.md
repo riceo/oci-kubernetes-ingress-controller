@@ -19,7 +19,7 @@ This will get you:
 Once applied, you can find the OCI LB IP by running:
 
 ```
-kubectl describe svc nginx-ingress
+kubectl describe svc nginx-ingress --namespace nginx-ingress
 ```
 
 You'll either see the public LB IP under "LoadBalancer Ingress", or you'll see a relevant error message from OCI in Events.
